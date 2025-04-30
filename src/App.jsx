@@ -7,7 +7,7 @@ import Update from './Update';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/crude">
     <Routes>
       <Route path="/" element={<Home/>}></Route>
 
