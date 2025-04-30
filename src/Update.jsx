@@ -60,8 +60,8 @@ const Update = () => {
             />
           </div>
           <div className="d-grid gap-2 d-md-flex justify-content-md-between">
-            <button type="submit" className="btn btn-primary">Update</button>
-            <button type="button" className="btn btn-secondary" onClick={() => navigate('/')}>
+            <button type="submit" className="btn btn-primary w-100 w-md-auto">Update</button>
+            <button type="button" className="btn btn-secondary w-100 w-md-auto" onClick={() => navigate('/')}>
               Cancel
             </button>
           </div>
